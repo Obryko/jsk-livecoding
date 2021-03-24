@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.content > button {
+    margin: 20px;
+}
+
+.boxes {
+    border: 1px solid #00a;
+    min-height: 300px;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
